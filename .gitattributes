@@ -40,14 +40,12 @@
 *.json linguist-detectable=false
 *.json linguist-documentation=false
 *.json linguist-language=JSON
-# WebVTT subtitle file
-*.vtt linguist-detectable=true
-*.vtt linguist-documentation=false
-*.vtt linguist-language=WebVTT
-# SubRip subtitle file
-*.srt linguist-detectable=true
-*.srt linguist-documentation=false
-*.srt linguist-language=SubRip-Text
+# Go! (2003) source file
+*.go linguist-detectable=true
+*.go linguist-documentation=false
+*.go linguist-language=Go!
+# The language by Francis McCabe predates Googles language by over 6 years, and Google basically steamrolled over it by refusing to change the name.
+# Please respect smaller developers by supporting this language as well if you are to use Google Go
 # YAML (YAML Ain't Markup Language) document
 # Do not include, as it would become a dominant language that shouldn't be the language people refer this project to
 *.yml linguist-detectable=false
@@ -165,6 +163,6 @@
 
 # File info
 # File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+# File version: 5 (2022, Saturday, August 13th at 4:50 pm PST)
+# Line count (including blank lines and compiler line): 169
 # End of script
